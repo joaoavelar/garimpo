@@ -1,0 +1,3 @@
+# O Garimpo funciona só com a biblioteca padrão do Python. Estes pacotes são opcionais:
+pillow>=10.1      # gerador de backup fictício, prints, ícone dos atalhos e conversão HEIC -> JPG
+pillow-heif       # abrir e converter fotos HEIC

@@ -1,0 +1,31 @@
+# --- Dados pessoais e arquivos gerados: NUNCA versionar -------------------------
+# Suas pastas/exclusões ficam fora do projeto (%APPDATA%\Garimpo), mas, por garantia:
+dados/
+*.log
+
+# Atalhos e ícone gerados por --criar-atalhos (têm o caminho da sua máquina)
+*.lnk
+*.ico
+
+# Backups (reais ou de demonstração), bancos e exportações
+demo/
+backups/
+Backup/
+*.sqlite
+*.sqlite3
+*.sqlitedb
+*.db
+*.storedata
+Manifest.*
+Info.plist
+Status.plist
+*.vcf
+exportados/
+_teste_export/
+
+# Python / ambiente
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
