@@ -108,6 +108,7 @@ Veja [`docs/como-funciona.md`](docs/como-funciona.md): estrutura de um backup do
 
 ## Desenvolvimento
 ```bash
+python -m pip install -r requirements.txt               # o gerador, os testes e os prints precisam do Pillow
 python tools/gerar_backup_demo.py demo                  # cria um backup fictício em demo/
 python garimpo.py --backup-dir demo --dados demo/dados  # abre o Garimpo nele
 python -m unittest discover -s tests                    # testes (usam o backup fictício)

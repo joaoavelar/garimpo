@@ -22,7 +22,7 @@ RAIZ = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 sys.path.insert(0, str(RAIZ / "tools"))
 import garimpo  # noqa: E402
-import gerar_backup_demo  # noqa: E402
+import gerar_backup_demo  # noqa: E402  (avisa como instalar o Pillow, se faltar)
 from PIL import Image  # noqa: E402
 
 

@@ -24,7 +24,10 @@ import shutil
 import sqlite3
 import tempfile
 
-from PIL import Image, ImageDraw, ImageFont
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ImportError:
+    raise SystemExit("Este gerador precisa do Pillow. Instale com:  python -m pip install pillow")
 
 UDID = "DEMO0000-0000000000000000"
 EPOCH = dt.datetime(2001, 1, 1)
