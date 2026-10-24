@@ -59,7 +59,7 @@ O Garimpo procura os backups nas pastas padrão:
 Precisa de **Python 3.9 ou mais novo** (os testes automáticos foram rodados no 3.13 e no 3.14). Não há dependências obrigatórias.
 
 ```bash
-git clone https://github.com/SEU-USUARIO/garimpo.git
+git clone https://github.com/joaoavelar/garimpo.git
 cd garimpo
 python -m pip install pillow pillow-heif    # opcional: fotos HEIC e ícone dos atalhos
 python garimpo.py
